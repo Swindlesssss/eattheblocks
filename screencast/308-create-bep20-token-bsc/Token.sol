@@ -4,8 +4,8 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 10000 * 10 ** 18;
-    string public name = "My Token";
-    string public symbol = "TKN";
+    string public name = "Fluffy Coin";
+    string public symbol = "FLUF";
     uint public decimals = 18;
     
     event Transfer(address indexed from, address indexed to, uint value);
